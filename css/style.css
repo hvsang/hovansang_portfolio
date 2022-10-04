@@ -16,7 +16,9 @@
     margin: 24px 0;
 }
 
-
+a:hover {
+    text-decoration: none;
+}
 
 /* HEADER */
 
@@ -278,4 +280,49 @@ header .navbar-toggler:hover {
 
 .award__right {
     padding: 45px 0;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #222;
+    padding: 70px 0;
+    color: #aaa;
+}
+
+.footer__top {
+    margin-bottom: 30px;
+}
+
+.footer__top a {
+    margin-left: 10px;
+}
+
+.footer__top i {
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 50%;
+    border: 1px solid #aaa;
+    color: #aaa;
+    transition: all 0.5s;
+}
+
+.footer__top a:hover i {
+    color: #35a22c;
+    border-color: #35a22c;
+}
+
+.footer__bottom {
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer__bottom span {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.footer__bottom span:hover {
+    color: #35a22c;
 }
